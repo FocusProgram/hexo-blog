@@ -1,0 +1,154 @@
+// --------------------------------------
+// Fluid
+// https://github.com/fluid-dev/hexo-theme-fluid
+// --------------------------------------
+
+@import "_variables/base"
+
+@import "_functions/base"
+
+@import "_mixins/base"
+
+@import "_pages/pages"
+
+
+/* 参考文档 https://hexo.fluid-dev.com/posts/hexo-darkmode/  https://liuyifei.club/posts/27341.html*/
+/* 切换按钮 */
+#dark-div
+  text-align center!important;
+#dark
+  cursor pointer
+  font-size 20px
+
+/*暗黑模式*/
+.dark
+  background-color #181a1b
+  /* 主体 */
+  #board 
+    background-color #181a1b
+    color #cbc7bf
+  
+  img  
+    filter brightness(100%)
+
+  p
+  .index-info a  
+    color #cbc7bf !important
+  .index-btm
+    color #cbc7bf
+  .post-prevnext
+    color #cbc7bf
+  .post-meta
+    color #cbc7bf
+
+  .markdown-body
+    h1,h2,h3,h4,h5,h6,s,li  
+      color:#f3f4f4 !important
+    color: #f3f4f4
+    
+
+  /* 顶栏 */
+  .navbar-col-show
+  .top-nav-collapse  
+    background-color #273238
+    
+  .navbar a  
+    color #ffffff !important
+    
+  .animated-icon span   /* 手机端 */
+    background-color #ffffff
+    color #ffffff
+
+
+  /* page-number */
+  .pagination a:hover
+  .pagination .current  
+    background-color #1e2021;
+
+
+  /* 打字机 */
+  #subtitle
+  .dark.typed-cursor--blink
+  .scroll-down-arrow
+    color #ffffff
+
+
+  /* back to top */
+  #scroll-top-button
+    background-color #181a1b
+
+    i
+      color #b7b1a7
+    
+
+  /* Toc */
+  .tocbot-list a
+    color #a09c9c
+
+  .tocbot-active-link
+  footer a:hover
+    color #1abc9c !important
+
+
+  /* footer */
+  footer
+  footer a
+    color #c5c2ba
+    
+
+  /* 归档页 */
+  .list-group-item
+    color #cac6be
+    background-color #181a1b
+
+  .list-group-item:hover
+  .tagcloud a:hover
+    background-color #46484d
+
+
+  /* 友链页 */
+  .links
+    .card  
+      background-color #181a1b
+        
+    .card-body:hover  
+      background-color #1e2021
+        
+    .link-title
+    .link-intro  
+      color #a09c9c
+    
+
+  /* note标签 由冼仙修改使用snipaste获取Dark Reader提供的配色 */
+  .note-info
+    background-color #122c31
+    border-color #238fa1
+
+  .note-danger
+    background-color #360b0e
+    border-color #9a1823
+
+  .note-success
+    background-color #172d1c
+    border-color #367a46
+
+  .note-warning
+    background-color #3c300a
+    border-color #87712b
+
+  .note-primary
+    background-color #212325
+    border-color #1561b3
+
+  .note-secondary
+    background-color #212325
+    border-color #545455
+
+  .note-light
+    background-color #191a1b
+    border-color #636363
+
+  .cbp_tmtimeline>li .cbp_tmlabel
+    background: #254a25
+  .cbp_tmtimeline > li:nth-child(2n+1) .cbp_tmlabel
+    background: #7e2907
