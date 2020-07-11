@@ -5,7 +5,7 @@ tags:
  - SpringCloud 
  - 微服务
 categories: 微服务
-index_img: /img/default.png
+index_img: http://image.focusprogram.top/20200506154252.png
 ---
 
 **Zipkin链路追踪与监控**
