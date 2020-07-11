@@ -120,9 +120,9 @@ navbar:
         key: '开源地址',
         icon: 'iconfont icon-bookmark-fill',
         submenu: [
-          { key: 'GitHub', link: 'https://github.com/FocusProgram/'},
+          { key: 'CSDN', link: 'https://blog.csdn.net/qq_41112063'},
           { key: 'Gitee', link: 'https://gitee.com/FocusProgram/'},
-          { key: 'CSDN', link: 'https://blog.csdn.net/qq_41112063'}
+          { key: 'GitHub', link: 'https://github.com/FocusProgram/'}                   
         ]
     }   
 
@@ -407,6 +407,12 @@ links:
       image: '/img/github.png'
     }
     - {
+      title: 'Gitee',
+      intro: 'Gitee仓库',
+      link: 'https://gitee.com/FocusProgram/',
+      image: '/img/gitee.png'
+    }
+    - {
       title: 'CSDN',
       intro: 'CSDN博客',
       link: 'https://blog.csdn.net/qq_41112063',
@@ -417,4 +423,16 @@ links:
       intro: '技术精选',
       link: 'https://www.focusprogram.top',
       image: '/img/focusprogram.png'
+    }
+    - {
+      title: 'Facebook',
+      intro: 'Facebook',
+      link: 'https://www.facebook.com/Mr_WilsonKong',
+      image: '/img/facebook.png'
+    }
+    - {
+      title: 'Instagram',
+      intro: 'Instagram',
+      link: 'https://www.instagram.com/mr_wilsonkong',
+      image: '/img/instagram.jpg'
     }
