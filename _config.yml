@@ -94,6 +94,10 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: fluid
+#theme: black-blue
+#theme: butterfly
+#theme: next
+#theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
