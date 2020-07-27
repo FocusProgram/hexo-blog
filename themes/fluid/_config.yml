@@ -155,8 +155,8 @@ footer:
   beian:  # The footer of China's website policy, other areas keep disable
     enable: true
     icp_text: 苏ICP备19063834号-1 # ICP证号
-    police_text: 苏ICP备19063834号-1 # 公安备案号，不填则只显示ICP
-    police_code: 19063834 # 公安备案的编号，用于URL跳转查询
+    police_text: 苏公安网备44030602004695号 # 公安备案号，不填则只显示ICP
+    police_code: 44030602004695 # 公安备案的编号，用于URL跳转查询
     police_icon: /img/police_beian.png # 公安备案的图片. 为空时不显示备案图片
 
 scroll_top_arrow:  # 向顶部滚动的箭头
