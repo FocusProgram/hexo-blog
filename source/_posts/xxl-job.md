@@ -5,7 +5,7 @@ tags:
  - SpringCloud 
  - 微服务
 categories: 微服务
-index_img: http://image.focusprogram.top/20200421165013.png
+index_img: https://image.focusprogram.top/20200421165013.png
 ---
 
 **xxl-job分布式任务调度平台**

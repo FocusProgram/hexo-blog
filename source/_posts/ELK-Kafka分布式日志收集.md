@@ -5,7 +5,7 @@ tags:
  - SpringCloud 
  - 微服务
 categories: 微服务
-index_img: http://image.focusprogram.top/elk-kafka.png
+index_img: https://image.focusprogram.top/elk-kafka.png
 ---
 
 **ELK-Kafka分布式日志收集**
