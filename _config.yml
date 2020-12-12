@@ -1,6 +1,8 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
+## https://blog.csdn.net/weixin_34402090/article/details/89487829(部署多个GitHub Pages)
+## https://segmentfault.com/a/1190000018662692?utm_source=tag-newest(仓库名与gitee不同名无法解析)
 
 # Site
 title: Mr.Kong Blog
@@ -14,6 +16,7 @@ timezone: 'Asia/Shanghai'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
+#url: blogs.focusprogram.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -101,7 +104,14 @@ theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+## Deploy To GitHub
+# deploy:
+#   type: 'git'
+#   repo: 'https://github.com/FocusProgram/focusprogram.github.io.git'
+#   branch: 'master'
+
+## Deploy To GitEE
 deploy:
   type: 'git'
-  repo: 'https://github.com/FocusProgram/focusprogram.github.io.git'
+  repo: 'https://gitee.com/FocusProgram/FocusProgram.git'
   branch: 'master'
